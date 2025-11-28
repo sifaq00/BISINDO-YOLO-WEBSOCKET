@@ -9,4 +9,6 @@ Preferred IPv6 DNS: 2606:4700:4700::1111
 
 uvicorn app:app --host 0.0.0.0 --port 8000 
 
-cloudflared tunnel --url http://localhost:8000 --protocol http2 --edge-ip-version 4
+cloudflared tunnel route dns bisindo-fastAPI-gpu api-bisindo.sifaq.my.id
+
+ cloudflared tunnel run bisindo-fastAPI-gpu  
