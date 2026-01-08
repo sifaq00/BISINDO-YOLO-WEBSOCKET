@@ -1,3 +1,6 @@
+torch==2.1.0+cu118
+torchvision==0.16.0+cu118
+torchaudio==2.1.0+cu118
 fastapi
 uvicorn
 uvicorn[standard]
@@ -7,4 +10,4 @@ opencv-python
 opencv-python-headless
 torch
 pillow
-numpy
+numpy<2
